@@ -3,7 +3,7 @@ provider "local" {}
 provider "random" {}
 
 resource "random_pet" "name" {
-  length = 2
+  length = 4
 }
 
 resource "local_file" "demo_file" {
